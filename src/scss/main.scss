@@ -1,0 +1,13 @@
+// Default variable overrides
+$primary: #FDC000;
+
+
+// Required
+@import "../../node_modules/bootstrap/scss/functions";
+@import "../../node_modules/bootstrap/scss/variables";// 해당 부분에 $primary 같은 내용들이 정의 되어있기에 모든 색상의 내용을 다 #으로 지정할거면 이 위도 ㅇㅋ, 아니라면 이 밑에 작성
+@import "../../node_modules/bootstrap/scss/variables-dark";  
+@import "../../node_modules/bootstrap/scss/maps";
+@import "../../node_modules/bootstrap/scss/mixins";
+@import "../../node_modules/bootstrap/scss/root";
+
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
